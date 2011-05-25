@@ -1,0 +1,204 @@
+/* @override http://127.0.0.1/~david/indstyle.css */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+	line-height: 1;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+.clear {
+	clear: both;
+}
+
+
+
+
+body {
+		background: rgba(160,160,160,0.73) url(img/3.png);
+}
+body,
+input,
+textarea {
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+}
+hr {
+	background-color: #e7e7e7;
+	border: 0;
+	clear: both;
+	height: 1px;
+	margin-bottom: 18px;
+}
+
+/* Text elements */
+p {
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+h4 {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+h2 {
+	font-size: 16px;
+	margin-left: 25px;
+}
+	p.noindent {
+	margin-bottom: 10px;
+	text-indent : 0px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:active,
+a:hover {
+	color: #757576;
+	text-decoration: none;
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	position: absolute;
+	left: -9000px;
+}
+
+/* =Layout
+-------------------------------------------------------------- */
+body {
+  padding: 0;
+  margin: 0;
+}
+.header {
+	margin: 0 0 55px 0;
+}
+#container {
+	margin: 0 auto;
+	text-align: center;
+}
+#content {
+	margin: 150px auto;	
+	width:500px;
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #dadada;
+}
+#content img {
+	float: left;
+	margin: -5px 0 -40px 95px;
+}
+#content .icons img {
+	margin: 3px;
+	float: none;
+}
+.card #content {
+	margin: 150px auto;
+	-webkit-animation-name: Rotation;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 400s;
+	z-index:-1;
+	width:450px;
+	border-top: 1px solid #fff;
+    -webkit-box-shadow: 0px 3px 5px #cbcbcb;
+    -moz-box-shadow: 0px 3px 5px #cbcbcb;
+    box-shadow: 0px 3px 5px #cbcbcb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+}
+
+.bottom {
+	margin-top: 50px;
+}
+.bottom p {
+	margin: 0;
+}
+.bottom a {
+	color: #666;
+}
+.left-bottom {
+	float: left;
+	display: block;
+	text-align: left;
+	margin: 0px 0 0 50px;
+}
+.left-bottom p {
+	font-size: 9px;
+}
+.right-bottom {
+	margin: 0px 50px 0 0;
+	text-align: right;
+}
+.right-bottom p {
+	font-size: 9px;
+}
+.contact {
+	font-size: 12px;
+}
+
+
+
+@-webkit-keyframes Rotation {
+from {
+	-webkit-transform: rotate(0deg);
+	}
+
+to {
+	-webkit-transform: rotate(360deg);
+
+	}
+}
