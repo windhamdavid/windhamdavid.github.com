@@ -1,0 +1,122 @@
+#Jekyll config file
+
+#title of site
+name: Ben Balter
+
+#description of site
+description: "GitHubber, Gov 2.0 Evangelist, Aspiring Attorney"
+
+#URL of site, include http://, do not include a trailing slash
+url: "http://windhamdavid.github.com"
+
+#files to exclude, array
+exclude:
+
+  - README.md
+  - bundle
+  - src
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - script
+  - test
+  - less
+  - scss
+  - media
+  - composer.json
+  - component.json
+  - grunt.js
+
+#number of items in RSS feed
+rss_limit: 10
+
+prose:
+  siteurl: "http://windhamdavid.github.com"
+  media: assets/img
+  relativeLinks: http://windhamdavid.github.com/links.jsonp
+  metadata:
+    _posts:
+      - name: categories
+        field:
+          label: Categories
+          element: select
+          placeholder: Select a category
+          options:
+            - name: Technology
+              value: technology
+            - name: Business
+              value: business
+            - name: Law
+              value: law
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: title
+        field:
+          element: text
+          label: Title
+          value: ""
+      - name: excerpt
+        field:
+          element: text
+          label: Excerpt
+          value: ""
+      - name: author
+        field:
+          element: text
+          label: Author
+          value: Ben Balter
+      - name: comments
+        field:
+          element: checkbox
+          label: Comments Enabled
+          value: true
+      - name: tags
+        field:
+          element: text
+          label: Tags
+          value: ""
+    "/":
+      - name: title
+        field:
+          element: text
+          label: Title
+          value: ""
+      - name: excerpt
+        field:
+          element: text
+          value: ""
+      - name: id
+        field:
+          element: text
+          value: ""
+      - name: layout
+        field:
+          element: select
+          placeholder: Select a layout
+          options:
+            - name: Page
+              value: page
+            - name: Home
+              value: home
+            - name: Default
+              value: default
+            - name: Resume
+              value: resume
+
+
+#google analytics username
+ga_username: 'UA-1906067-6'
+
+#build config
+pygments: true
+markdown: kramdown
+timezone: America/New_York
+encoding: UTF-8
+
+gems:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-redirect-from
