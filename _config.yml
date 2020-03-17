@@ -111,12 +111,12 @@ prose:
 ga_username: 'UA-1906067-6'
 
 #build config
-pygments: true
+highlighter: true
 markdown: kramdown
 timezone: America/New_York
 encoding: UTF-8
 
-gems:
+plugins:
   - jemoji
   - jekyll-mentions
   - jekyll-redirect-from
