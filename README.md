@@ -12,5 +12,8 @@ add the github pages gem
 ```
 gem "github-pages", group: :jekyll_plugins
 ```
-
+```
+jekyll build
+jekyll serve
+```
 see also [https://jekyllrb.com/docs/github-pages/](https://jekyllrb.com/docs/github-pages/)
